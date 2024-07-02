@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 // Import metadata from the separate file
 import { metadata } from "../../public/metadata"
 import MainLayout from "~/components/layouts/MainLayout";

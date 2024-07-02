@@ -9,16 +9,9 @@ function TodoContainer() {
         <button>Add Todo</button>
         <button>Filter</button>
       </div>
-      <div className=" h-[500px] w-full rounded-xl bg-gray-300 p-3">
-        <div className=" bg-gray-400 rounded-md flex justify-between item-center p-5">
-        <input type="checkbox" name="" id="" />
-        <p>Todo Title</p>
-        <p>Time</p>
-        <p>Description</p>
-        <div className=" space-x-3 ">
-            <Button>Del</Button>
-            <Button>Edit</Button>
-        </div>
+      <div className=" h-full w-full rounded-xl bg-red-500 p-5 space-y-3">
+        <div className=" flex justify-center items-center bg-white p-3 font-semibold text-center text-2xl ">
+          <p> There is no task pending </p>
         </div>
       </div>
     </div>
